@@ -1,8 +1,25 @@
 aid: pariti
 name: Pariti
-description: Pariti is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Pariti is an AI-powered talent acquisition platform that helps companies source, vet,
+  and hire candidates through a community-driven referral network of thousands of leaders, technologists,
+  and recruiters. It pairs recruiter-trained AI/ML candidate screening with salary benchmarking (Salary
+  Insights) and a Talent Engine that aims to move roles from open to offer in about four weeks. Pariti
+  is a portfolio company of 500 Global. No public developer API, OpenAPI specification, MCP server, or
+  developer documentation surface was found during enrichment; this profile captures the company's
+  public web presence and security posture as a lead awaiting a real API surface.
 url: https://raw.githubusercontent.com/api-evangelist/pariti/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/64e4978db8655cc8c24750d8/64f6dd1c54e53ad531bb8f11_Open%20Graph%20Image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Recruitment
+- Talent Acquisition
+- Hiring
+- Recruiting
+- Artificial Intelligence
+- Human Resources
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,14 @@ maintainers:
 common:
 - type: Website
   url: https://pariti.io
+- type: PrivacyPolicy
+  url: https://www.pariti.io/privacy-policy
+- type: TermsOfService
+  url: https://www.pariti.io/terms-and-conditions
+- type: DomainSecurity
+  url: security/pariti-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
